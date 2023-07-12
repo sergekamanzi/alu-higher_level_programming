@@ -4,5 +4,5 @@ def print_list_integer(my_list=[]):
         print("{}".format(num))
 
 # Example usage
-my_list = [1, 2, 3, 4, 5]
-print_list_integer(my_list)
+my_list = [1, 2, 3]
+print_list_integer({}, {}, {}.str.format(my_list )
