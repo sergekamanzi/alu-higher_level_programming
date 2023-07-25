@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
+
+
 class Rectangle:
     """Represent a rectangle."""
 
@@ -70,6 +72,8 @@ class Rectangle:
         rect += ", " + str(self.__height) + ")"
         return (rect)
 # comment here
+
+
 #my_rectangle = Rectangle(2, 4)
 #print(str(my_rectangle))
 #print("--")
@@ -79,6 +83,7 @@ class Rectangle:
 #print("--")
 #print(hex(id(my_rectangle)))
 #print("--")
+
 # create new instance based on representation
 #new_rectangle = eval(repr(my_rectangle))
 #print(str(new_rectangle))
@@ -88,4 +93,4 @@ class Rectangle:
 #print(repr(new_rectangle))
 #print("--")
 #print(hex(id(new_rectangle)))
-#print("--") 
+#print("--")
