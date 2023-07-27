@@ -2,20 +2,22 @@
 '''creates a new subclass from rectangle'''
 
 
-Rectangle = __import__('9-rectangle').Rectangle
+Rectangle = _import_('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
     '''class that defines a Square from Rectangle Class'''
 
-    def __init__(self, size):
+    def _init_(self, size):
         '''initialize variables'''
         self.integer_validator('size', size)
         self.__size = size
-        super().__init__(self.__size, self.__size)
+        super()._init(self.size, self._size)
 
     def area(self):
         '''Method to return the area'''
         return self.__size ** 2
 
-    def __str__(se
+    def _str_(self):
+        '''special method that returns a printable string'''
+        return f"[Square] {self._size}/{self._size}"
